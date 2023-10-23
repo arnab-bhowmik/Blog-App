@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: arnab17/udemy-blog-app-post-service:latest
+          image: arnab17/blog-app-posts-service:latest
           imagePullPolicy: Never
 ---
 apiVersion: v1
